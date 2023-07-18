@@ -7,7 +7,6 @@
 /* nav style start */
 
 nav{
-    border: 2px solid gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,7 +52,6 @@ nav{
 /* banner-container style-start */
 
 .banner-container{
-    border: 2px solid gray;
     min-height: 50px;
     display: flex;
     align-items: center;
@@ -110,6 +108,121 @@ nav{
     width: 100%;
     height: 100%;
 }
-
-
 /* banner-container style-end */
+
+
+
+/* Online Games Funny Videos style */
+
+.games-title-box{
+    margin-top: 100px;
+    padding-bottom: 3rem;}
+.games-title-box h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.games-title-box p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.20rem;
+    font-weight: 400;
+}
+
+
+/* GAMES CARDS CONTAINER STYLE */
+
+.games-card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.games-card{
+    border-radius: 1rem;
+    width: 250px;
+    height: 355px;
+    text-align: start;
+}
+.game-img{
+    width: 100%;
+}
+
+/* anniversary-container style */
+
+.anniversary-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 50px;
+    border: 2px solid gray;
+}
+.anniversari-text{
+    width: 50%;
+    text-align: end;
+}
+.anniversari-text h3{
+    color: #0B0223;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.anniversari-text p{
+    color: #534C64;
+    font-size: 14px;
+    font-weight:400 ;
+    line-height: 25px;
+}
+.anniversari-images{
+    width: 50%;
+}
+.anniversari-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background-image: url('./images/Rectangle 66.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 0;
+    padding: 140px;
+    position: relative;
+    bottom: 150px;
+    margin-right: 50px;
+}
+
+/* games catagory container */
+
+.games-catagori-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.game-name{
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.games-catagori-container :hover{
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 50px;
+    color:goldenrod;
+}
+
+
+
+
