@@ -1,155 +1,44 @@
+/* // Large devices (desktops, 992px and up)// */
 
-/* Extra small devices (phones, 600px and down) */
 
+@media (min-width: 576px) and (max-width: 991.98px) {
 
-@media only screen and (max-width: 576px) {
+    .nav{
+        align-items: center;
+    }
+    .text-box a{
+        font-size: 12px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-images{
+        width: 90%;
+    }
+    .banner-text{
+        width: 80%;
+        margin-top: 1rem;
+    }
 
-nav{
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    flex-direction: column;
-}
-.logo-box{
-    margin-top: 2rem;
-    padding-left: 60px;
-    flex-direction: column;
-    align-items: center;
-}
-.text-box{
-    padding-left: 60px;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-}
-.fallow-icon{
-    margin-bottom: 1rem;
-    padding: 10px;
-    font-size: 12px;
-    gap: 5px;
-    width: 150%;
-}
+    .games-card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+    }
 
-/* banner-container style */
+    .anniversary-container{
+        flex-direction: column;
+    }
+    .anniversari-text{
+        text-align: center;
+        align-items: center;
+    }
+    .anniversari-images{
+        width: 75%;
+        margin: 0 auto;
+    }
 
-.banner-container{
-    flex-direction: column-reverse;
-}
-.banner-images{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
-.banner-text{
-    width: 80%;
-    background-image: url('./images/Group 14.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-
-} 
-.banner-text h4{
-    width: 100%;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 100px;
-}
-.banner-text h1{
-    font-size: 70px;
-    font-weight: 800;
-    text-align: center;
-    margin-top: -25px;
-}
-.banner-icon li{
-    line-height: 50px;
-    font-size: 9px;
-    text-align: left;
-    margin-right: 100px;
-    margin-top:-40px ;
-}
-.banner-btn-container{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.banner-btn{
-    padding: 10px 20px;
-    border-radius: 48px;
-    color: #FFF;
-    font-size: 15px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 20px 20px;
-    border: none;
-}
-
-/* games-container style */
-
-.games-title-box{
-    width: 90%;
-    margin: 1rem auto;
-}
-.games-title-box h2{
-    text-align: center;
-    font-size: 25px;
-}
-.games-title-box p{
-    font-size: 13px;
-}
-
-.games-card-container{
-    flex-direction: column;
-    align-items: center;
-}
-
-.anniversary-container{
-    flex-direction: column;
-    margin-top: -4rem;
-}
-.anniversari-text{
-    text-align: center;
-    width: 90%;
-}
-.anniversari-images{
-    width: 90%;
-    margin-top: -6rem;
-}
-.img-two{
-    width: 40%;
-    margin-left: 2.50rem;
-}
-.games-catagori-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
-}
-.game-name img{
-    width: 30px;
-}
-.game-name h3{
-    font-size: 8px;
-    align-items: center;
-}
-
-/* footer style */
-
-.footer-link,
-.footer-social-link{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-.footer-link,
-.footer-treams{
-    color: #FFF;
-    text-align: center;
-    font-size: 9px;
-    font-weight: 600;
-}
-.footer-treams{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
 }
+
