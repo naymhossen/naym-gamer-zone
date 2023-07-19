@@ -9,7 +9,29 @@
 .lin-color{
     background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+    -webkit-text-fill-color: transparent;
+}
+
+.hover-pic{
+    margin-top: -240px;
+}
+.hover-pic a {
+    text-decoration: none;
+    gap: 10px;
+    display: grid;
+    margin: 2rem;
+    text-align: center;
+}
+.watch{
+    color: #f948b2;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fa-circle-play{
+    color:red;
+    font-size: 40px;
+    font-weight: 700;
+}
 
 nav{
     max-width: 1500px;
@@ -91,9 +113,6 @@ nav{
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .banner-icon li{
     list-style: none;
