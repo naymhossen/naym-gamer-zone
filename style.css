@@ -27,11 +27,11 @@
     font-size: 20px;
     font-weight: 700;
 }
-.fa-circle-play{
+/* .fa-circle-play{
     color:red;
     font-size: 40px;
     font-weight: 700;
-}
+} */
 
 nav{
     max-width: 1500px;
@@ -337,10 +337,10 @@ footer{
     }
     .fallow-icon{
         margin-bottom: 1rem;
-        padding: 10px;
-        font-size: 12px;
-        gap: 5px;
+        padding:9px;
+        font-size: 8px;
         width: 150%;
+        font-weight: 500;
     }
     
     /* banner-container style */
