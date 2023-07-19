@@ -7,6 +7,7 @@
 /* nav style start */
 
 nav{
+    max-width: 1500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,22 +41,31 @@ nav{
     border-radius: 5px;
     gap: 10px;
 }
-.fa-brands, .fa-youtube{
+.fa-youtube{
     color:#FF0000;
     padding-left: 20px;
 }
+.fa-youtube :hover {
+    cursor: pointer;
+    color: yellow;
+}
 .fa-tiktok{
     color: black;
+}
+.fa-tiktok :hover {
+    cursor: pointer;
+    color: #010101c6;
 }
 /* nav style end */
 
 /* banner-container style-start */
 
 .banner-container{
+    max-width: 1500px;
     min-height: 50px;
+    margin: 3rem auto;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .banner-text{
     width: 50%;
@@ -71,21 +81,23 @@ nav{
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-top: 50px;
 }
 .banner-text h1{
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .banner-icon li{
     list-style: none;
     text-align:start;
     margin-left: 120px;
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 500;
-    padding-bottom: 10px;
+    margin-bottom: .8rem;
 }
 .banner-btn{
     padding: 20px 40px;
@@ -152,17 +164,16 @@ nav{
 
 /* anniversary-container style */
 
+
 .anniversary-container{
-    width: 80%;
-    margin: 0 auto;
+    max-width: 1500px;
+    margin: 3rem auto;
     display: flex;
     align-items: center;
-    gap: 200px;
-    margin-bottom: 50px;
-    border: 2px solid gray;
+    justify-content: space-around;
+    gap: 100px;
 }
 .anniversari-text{
-    width: 50%;
     text-align: end;
 }
 .anniversari-text h3{
@@ -178,37 +189,34 @@ nav{
     line-height: 25px;
 }
 .anniversari-images{
+    text-align: center;
+    position: relative;
+    /* width: 50%; */
+}
+.img-one{
+    width: 80%;
+}
+.img-two{
     width: 50%;
 }
-.anniversari-images img{
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-}
-.ten-years-badge{
-    border-radius: 8px;
-    background-image: url('./images/Rectangle 66.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 200px;
-    height: 0;
-    padding: 140px;
-    position: relative;
-    bottom: 150px;
-    margin-right: 50px;
+.anniversari-images .img-two{
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
 }
 
 /* games catagory container */
 
 .games-catagori-container{
+    max-width: 1500px;
     width: 95%;
-    margin: 0 auto;
+    margin:auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
+    margin-top: 6rem;
 }
 .game-name{
     background: #FFF;
@@ -217,11 +225,13 @@ nav{
     gap: 10px;
 }
 .games-catagori-container :hover{
-    border: 2px solid gray;
+    border: 1px solid gray;
     cursor: pointer;
     border-radius: 50px;
     color:goldenrod;
 }
+
+/* footer section */
 
 
 
