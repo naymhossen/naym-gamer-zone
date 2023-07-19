@@ -2,129 +2,154 @@
 /* Extra small devices (phones, 600px and down) */
 
 
-@media only screen and (max-width: 600px) {
-*{
-    box-sizing: border-box;
-}
-    /* nav style start */
+@media only screen and (max-width: 576px) {
 
 nav{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
     flex-direction: column;
 }
 .logo-box{
-    width: 100%;
-    /* margin-right: 50px; */
-    margin-bottom: 50px;
+    margin-top: 2rem;
+    padding-left: 60px;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
 }
 .text-box{
+    padding-left: 60px;
     flex-direction: column;
-    width: 100%;
+    align-items: center;
+    align-content: center;
 }
-/* nav style end */
+.fallow-icon{
+    margin-bottom: 1rem;
+    padding: 10px;
+    font-size: 12px;
+    gap: 5px;
+    width: 150%;
+}
 
-/* banner-container-style */
+/* banner-container style */
 
 .banner-container{
     flex-direction: column-reverse;
 }
 .banner-images{
     width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 .banner-text{
-    width: 100%;
-}
+    width: 80%;
+    background-image: url('./images/Group 14.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+} 
 .banner-text h4{
-    text-align: center;
+    width: 100%;
     font-size: 30px;
-    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
 }
 .banner-text h1{
-    text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 800;
+    text-align: center;
+    margin-top: -25px;
 }
 .banner-icon li{
-    margin-left: 90px;
+    line-height: 50px;
+    font-size: 9px;
+    text-align: left;
+    margin-right: 100px;
+    margin-top:-40px ;
 }
-.banner-btn-container {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.banner-btn-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .banner-btn{
-    padding: 10px 15px;
-    border-radius: 40px;
-    background: #4EC5F7;
+    padding: 10px 20px;
+    border-radius: 48px;
     color: #FFF;
-    font-size: 1.25rem;
+    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 20px 20px;
     border: none;
 }
-.btn{
-    background-color: rgb(251, 2, 242);
-}
 
-/* games card container style */
+/* games-container style */
 
-.games-card-container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 60%;
-    margin: 0 auto;
-}
 .games-title-box{
-    margin-top: 50px;
-    padding-bottom: 2rem;}
+    width: 90%;
+    margin: 1rem auto;
+}
 .games-title-box h2{
-    color: #0B0223;
     text-align: center;
     font-size: 25px;
-    font-weight: 700;
 }
 .games-title-box p{
-    color: #534C64;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 13px;
 }
 
-/* .anniversary-container style */
+.games-card-container{
+    flex-direction: column;
+    align-items: center;
+}
 
 .anniversary-container{
     flex-direction: column;
+    margin-top: -4rem;
 }
 .anniversari-text{
-    width: 100%;
-    text-align:center;
-}
-.anniversari-text h3{
-    color: #0B0223;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 50px;
-}
-.anniversari-text p{
-    color: #534C64;
-    font-size: 12px;
-    font-weight:400 ;
-    line-height: 20px;
+    text-align: center;
+    width: 90%;
 }
 .anniversari-images{
     width: 90%;
-    margin-top: -160px;
+    margin-top: -6rem;
+}
+.img-two{
+    width: 40%;
+    margin-left: 2.50rem;
 }
 .games-catagori-container{
-    width: 95%;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+}
+.game-name img{
+    width: 30px;
+}
+.game-name h3{
+    font-size: 8px;
+    align-items: center;
+}
+
+/* footer style */
+
+.footer-link,
+.footer-social-link{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-link,
+.footer-treams{
+    color: #FFF;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 600;
+}
+.footer-treams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 }
